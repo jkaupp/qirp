@@ -25,7 +25,7 @@
 #'
 #' @export
 theme_queensu <- function (base_family = "Open Sans", base_size = 11, strip_text_family = base_family,
-          strip_text_size = 12, plot_title_family = "Volkhov", plot_title_size = 18,
+          strip_text_size = 12, plot_title_family = "Raleway ExtraBold", plot_title_size = 18,
           plot_title_margin = 10, subtitle_family = "Open Sans", subtitle_size = 12,
           subtitle_margin = 15, caption_family = "Open Sans", caption_size = 9,
           caption_margin = 10, axis_title_family = "Open Sans", axis_title_size = 9,
