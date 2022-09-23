@@ -9,7 +9,7 @@ theme_queensu(
   base_size = 11,
   strip_text_family = base_family,
   strip_text_size = 12,
-  plot_title_family = "Raleway Bold",
+  plot_title_family = "Raleway ExtraBold",
   plot_title_size = 18,
   plot_title_margin = 10,
   subtitle_family = "Open Sans",
