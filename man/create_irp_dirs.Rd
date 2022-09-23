@@ -3,7 +3,7 @@
 \name{create_irp_dirs}
 \alias{create_irp_dirs}
 \title{Function to populate a clean project directory with R, Data, Documentation, Submission
-and Correspondence folders}
+and Correspondence folders.}
 \usage{
 create_irp_dirs(root_dir = here::here())
 }
@@ -11,6 +11,9 @@ create_irp_dirs(root_dir = here::here())
 \item{root_dir}{defaults to here::here() the project root dir}
 }
 \description{
-Function to populate a clean project directory with R, Data, Documentation, Submission
-and Correspondence folders
+Please Note: Unless you run this function in the root project directory, you'll have to supply the path.
+}
+\examples{
+# In a project directory
+create_irp_dirs()
 }
