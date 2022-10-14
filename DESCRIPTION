@@ -16,4 +16,5 @@ RoxygenNote: 7.2.1
 Imports: 
     crayon,
     ggplot2,
-    ggtext
+    ggtext,
+    openssl
