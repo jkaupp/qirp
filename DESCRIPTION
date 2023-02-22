@@ -10,3 +10,9 @@ Encoding: UTF-8
 Language: es
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Imports: 
+    crayon,
+    ggplot2,
+    ggtext,
+    openssl,
+    utils
