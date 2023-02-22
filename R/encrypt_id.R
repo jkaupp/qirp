@@ -4,8 +4,6 @@
 #'
 #' @return an encrypted id
 #' @export
-#'
-#' @examples
 encrypt_id <- function(id) {
 
   openssl::md5(id)

@@ -1,18 +1,17 @@
 Package: qirp
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Helper Functions for Queen's Institutional Research and Planning Team
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Jake Kaupp
+Maintainer: Jake Kaupp <jake.kaupp@queensu.ca>
+Description: Small functions and helpers to assist in the everyday analyst work done by Queen's IRP.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/jkaupp/qirp
 BugReports: https://github.com/jkaupp/qirp/issues
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Imports: 
     crayon,
     ggplot2,
