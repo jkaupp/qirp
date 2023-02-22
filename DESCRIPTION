@@ -1,19 +1,12 @@
 Package: qirp
-Type: Package
-Title: Helper Functions for Queen's Institutional Research and Planning Team
-Version: 0.1.0
-Author: Jake Kaupp
-Maintainer: Jake Kaupp <jake.kaupp@queensu.ca>
-Description: Small functions and helpers to assist in the everyday analyst work done by Queen's IRP.
+Title: Helper Functions For Queen's Institutional Research And Planning
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jake", "Kaupp", , "jkaupp@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-3217-3294"))
+Description: qirp is a package of common helper functions for use in the Queen’s Institutional Research and Planning to help team members work more effectively and efficiently in their day-to-day work.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
-URL: https://github.com/jkaupp/qirp
-BugReports: https://github.com/jkaupp/qirp/issues
+Language: es
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Imports: 
-    crayon,
-    ggplot2,
-    ggtext,
-    openssl
