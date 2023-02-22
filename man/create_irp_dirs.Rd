@@ -14,6 +14,8 @@ create_irp_dirs(root_dir = here::here())
 Please Note: Unless you run this function in the root project directory, you'll have to supply the path.
 }
 \examples{
+\dontrun{
 # In a project directory
 create_irp_dirs()
+}
 }

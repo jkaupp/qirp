@@ -26,8 +26,10 @@ check_and_make_dir <- function(root, folder) {
 #' @export
 #'
 #'@examples
+#'\dontrun{
 #' # In a project directory
 #' create_irp_dirs()
+#' }
 create_irp_dirs <- function (root_dir = here::here())
 {
 
