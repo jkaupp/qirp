@@ -15,11 +15,6 @@ irp_path <- function(..., fsep = .Platform$file.sep) {
     base_path <- file.path(.Platform$file.sep, "Volumes", "PBO")
   }
 
-<<<<<<< HEAD
-  file.path(base_path, list(...), fsep)
-=======
   file.path(base_path, list(...), fsep = fsep)
->>>>>>> bed3738 (Added irp_path function)
-
 
 }
