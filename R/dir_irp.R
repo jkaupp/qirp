@@ -8,13 +8,13 @@ irp_path <- function(..., fsep = .Platform$file.sep) {
 
   if (.Platform$OS.type != "unix") {
 
-    base_path <- file.path(.Platform$file.sep, "wfs.queensu.ca")
+    base_path <- "wfs.queensu.ca"
 
   } else {
 
     base_path <- file.path(.Platform$file.sep, "Volumes", "PBO")
   }
 
-  file.path(base_path, list(...), fsep = fsep)
+  file.path(base_path, ..., fsep = fsep)
 
 }
